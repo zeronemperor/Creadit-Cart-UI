@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(50deg, #f3c680, #a1e3e2);
+}
+.checkout {
+  margin: 100px auto;
+  .credit-cart {
+    background: linear-gradient(to right, #d53369, #cbad6d);
+    width: 400px;
+    height: 250px;
+    transform: translate(0, 20px);
+    .front {
+      .top {
+        .chip {
+          background-color: rgb(218, 218, 218);
+          width: 60px;
+          height: 45px;
+        }
+      }
+      .numbers {
+        transform: translateY(50px);
+      }
+      .bottom {
+        bottom: 0;
+        .expire {
+          transform: translateX(-30px);
+        }
+      }
+    }
+  }
+  form {
+    width: 450px;
+    .num {
+      width: 98px;
+    }
+  }
+}
